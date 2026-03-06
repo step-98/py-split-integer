@@ -26,4 +26,4 @@ def test_list_contains_exactly_number_of_parts_elements() -> None:
 
 
 def test_difference_between_largest_and_smallest_no_more_1() -> None:
-    assert split_integer(2, 2)[0] - split_integer(2, 2)[-1] <= 1
+    assert split_integer(16, 3) == [5, 5, 6]
